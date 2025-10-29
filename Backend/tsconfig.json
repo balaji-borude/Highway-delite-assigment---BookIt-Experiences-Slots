@@ -35,7 +35,10 @@
     // Recommended Options
     "strict": true,
     "jsx": "react-jsx",
-    "verbatimModuleSyntax": true,
+    "verbatimModuleSyntax": false, 
+    // $$$$$$$$$$$ -->< when this is true it suppoert the coomonjs syntax , 
+    // in false it support the esmodule syntax 
+
     "isolatedModules": true,
     "noUncheckedSideEffectImports": true,
     "moduleDetection": "force",
